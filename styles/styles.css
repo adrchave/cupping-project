@@ -1,0 +1,44 @@
+html {background-color: white;
+    color: rgb(70, 70, 70)}
+body {margin: 0;
+    font-size: 25px;
+    font-family:'Heebo', sans-serif;
+    font-weight: normal;}
+h1 {font-family: 'Playfair Display', serif;
+    text-transform: lowercase;
+    font-size: 55px;
+    margin-top: 0;
+    margin-bottom: 2px;}
+h2 {font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    color: #1f1f1f;}
+.container {background-color: #e3c268;
+            height: 175px;
+            text-align: center;
+            color: #1f1f1f;
+            font-size: 25px;}
+.button {background-color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        border: none;
+        color: rgb(49, 49, 49);
+        padding: 10px 15px;
+        text-align: center;
+        display: inline-block;
+        font-size: 10px;
+        text-transform: uppercase;
+        white-space: nowrap;
+        cursor: pointer;
+        font-weight: bold;}
+.body {font-weight: bold;
+        width: 800px;
+        margin: 25px 50px 75px 100px}
+.cupping-image {background-color: #e3c268;
+            background-image: url("/Users/adrianachavez/Documents/cupping-project/images/cupping.jpg");
+            padding: 25px;
+            height: 300px;
+            text-align: left;
+            background-position: center;
+            background-attachment: scroll;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;}
