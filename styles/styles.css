@@ -46,24 +46,66 @@ h2 {font-family: 'Roboto Slab', serif;
             background-size: cover;
             position: relative;}
 /* NEW TASTING PAGE STYLE*/
-.body1 {width: 800px;
-        margin: 25px 50px 75px 100px}
-.container-ci {background-color: rgb(247, 243, 239);
-            padding: 25px;
-            width: 400px;
-            border: 2px solid #e3c268;}
-input[type=radio] {font-size: 20px;
-                    margin: 0;
-                    padding: 0;}
-input [type=text] {width: 100%;
-                    padding: 3px 3px;
-                    box-sizing: content-box;
-                    margin: 0;}
-select {width: 100%;
-        font-size: 15px;
-        padding: 10px;}
-h3 {font-family: 'Roboto Slab', serif;
-    font-size: 25px;
+p {
+    font-family: 'Heebo', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+.body1 {
+    width: 800px;
+    margin: 25px 50px 75px 100px;
+}
+h4 {
+    font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
+    font-size: 35px;
+    color: #1f1f1f;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+.container-ci {
+    background-color: white;
+    padding: 10px;
+    width: 400px;
+    border: 2px solid #e3c268;
+}
+input[type=radio] {
+    font-size: 20px;
+    margin: 0;
     padding: 0;
-    margin: 0;}
+}
+input[type=text] {
+    width: 100%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 20px;
+}
+input[type=submit] {
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 2px solid rgb(88, 88, 88);
+    color: rgb(49, 49, 49);
+    padding: 10px 20px;      
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    transition-duration: all 0.2s
+}
+input [type=submit]:hover {
+    color: darkgray;
+    background-color: gray;
+}
+input [type=submit]:active {
+    color: rgb(88, 88, 88);
+}
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
