@@ -1,58 +1,79 @@
-html {background-color: white;
-    color: rgb(70, 70, 70)}
-body {margin: 0;
-    font-size: 25px;
-    font-family:'Heebo', sans-serif;
-    font-weight: normal;}
-h1 {font-family: 'Playfair Display', serif;
+html {
+    background-color: white;
+    color: rgb(70, 70, 70);
+}
+body {
+    margin: 0;
+    font-size: 30px;
+}
+h1 {
+    font-family: 'Playfair Display', serif;
     text-transform: lowercase;
     font-size: 55px;
     margin-top: 0;
-    margin-bottom: 2px;}
-h2 {font-family: 'Roboto Slab', serif;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+h2 {
+    font-family: 'Roboto Slab', serif;
     font-size: 40px;
-    color: #1f1f1f;}
-.container {background-color: #e3c268;
-            height: 175px;
-            text-align: center;
-            color: #1f1f1f;
-            font-size: 25px;}
-.button {background-color: white;
-        font-family: 'Josefin Sans', sans-serif;
-        border: 1px solid white;
-        color: rgb(49, 49, 49);
-        padding: 10px 20px;
-        text-align: center;
-        display: inline-block;
-        font-size: 10px;
-        text-transform: uppercase;
-        white-space: nowrap;
-        cursor: pointer;
-        font-weight: bold;
-        transition-duration: all 0.2s}
-.button:hover {color: darkgray;}
-.button:active {color: rgb(88, 88, 88);}
-.body {font-weight: bold;
-        width: 800px;
-        margin: 25px 50px 75px 100px}
-.cupping-image {background-color: #e3c268;
-            background-image: url("/Users/adrianachavez/Documents/cupping-project/images/cupping.jpg");
-            padding: 25px;
-            height: 300px;
-            text-align: left;
-            background-position: center;
-            background-attachment: scroll;
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: relative;}
+    color: #1f1f1f;
+    margin-bottom: 20px;
+}
+.container {
+    background-color: #e3c268;
+    height: 150px;
+    text-align: center;
+    color: #1f1f1f;
+    font-size: 25px;
+}
+.button {
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 1px solid white;
+    color: rgb(49, 49, 49);
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    cursor: pointer;
+    font-weight: bold;
+    transition-duration: all 0.2s;
+}
+.button:hover {
+    color: darkgray;
+}
+.button:active {
+    color: rgb(88, 88, 88);
+}
+.body {
+    font-weight: bold;
+    width: 800px;
+    margin: 25px 50px 50px 100px;
+}
+.cupping-image {
+    background-color: #e3c268;
+    background-image: url("/Users/adrianachavez/Documents/cupping-project/images/cupping.jpg");
+    padding: 25px;
+    height: 200px;
+    text-align: left;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 /* NEW TASTING PAGE STYLE*/
 p {
     font-family: 'Heebo', sans-serif;
     font-weight: normal;
     font-size: 20px;
+    line-height: 25px;
 }
 .body1 {
-    width: 800px;
+    width: 1000px;
     margin: 25px 50px 75px 100px;
 }
 h4 {
@@ -63,24 +84,29 @@ h4 {
     padding: 5px;
     margin: 10px;
     text-align: center;
+    line-height: 40px;
 }
 .container-ci {
     background-color: white;
     padding: 10px;
-    width: 400px;
+    width: 450px;
     border: 2px solid #e3c268;
+    float: left;
+    margin-bottom: 10px;
 }
 input[type=radio] {
     font-size: 20px;
     margin: 0;
     padding: 0;
+    line-height: 30px;
 }
 input[type=text] {
     width: 100%;
-    padding: 5px 10px;
+    padding: 5px;
     box-sizing: border-box;
     margin: 0;
-    font-size: 20px;
+    font-size: 15px;
+    margin-bottom: 5px;
 }
 input[type=submit] {
     background-color: white;
@@ -96,6 +122,16 @@ input[type=submit] {
     font-weight: bold;
     transition-duration: all 0.2s
 }
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 4px;
+    background-color: white;
+    height: 30px;
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
 input [type=submit]:hover {
     color: darkgray;
     background-color: gray;
@@ -107,5 +143,78 @@ h3 {
     font-family: 'Roboto Slab', serif;
     font-size: 25px;
     padding: 0;
+    margin-bottom: 5px;
+    line-height: 30px;
+}
+.container-cc {
+    background-color: white;
+    padding: 10px;
+    width: 450px;
+    border: 2px solid #e3c268;
+    margin-bottom: 10px;
+    float: right;
+}
+.container-or {
+    background-color: white;
+    padding: 10px;
+    width: 450px;
+    border: 2px solid #e3c268;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container-no {
+    background-color: white;
+    padding: 10px;
+    width: 450px;
+    border: 2px solid #e3c268;
+    margin-top: 10px;
+    float: right;
+}
+/* likehart scale */
+.wrap {
+    font:12px Arial, san-serif;
+}
+  form .likert {
+    list-style:none;
+    width:100%;
+    margin:0;
+    padding:0 0 35px;
+    display:block;
+    border-bottom:2px solid #efefef;
+  }
+  form .likert:last-of-type {border-bottom:0;}
+  form .likert:before {
+    content: '';
+    position:relative;
+    top:11px;
+    left:9.5%;
+    display:block;
+    background-color:#efefef;
+    height:4px;
+    width:78%;
+  }
+  form .likert li {
+    display:inline-block;
+    width:19%;
+    text-align:center;
+    vertical-align: top;
+  }
+  form .likert li input[type=radio] {
+    display:block;
+    position:relative;
+    top:0;
+    left:50%;
+    margin-left:-6px;
+    
+  }
+  form .likert li label {width:100%;}
+/* Notes */
+textarea {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
     margin: 0;
+    font-size: 15px;
+    margin-bottom: 5px;
 }

@@ -2,8 +2,11 @@
 <html>
 <head>
     <title>New Cupping | bean juice co.</title>
-    <link href="styles/styles.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Heebo|Josefin+Sans|Playfair+Display:400,700,900|Roboto+Slab&display=swap" rel="stylesheet">
+    <!--STYLE SHEETS-->
+        <link href="styles/reset.css" rel="stylesheet">
+        <link href="styles/styles.css" rel="stylesheet">
+    <!-----FONTS----->
+        <link href="https://fonts.googleapis.com/css?family=Heebo|Josefin+Sans|Playfair+Display:400,700,900|Roboto+Slab&display=swap" rel="stylesheet">
 </head>
 <body>
 <nav class="navbar-static">
@@ -15,7 +18,7 @@
         <button class="button" onclick="window.location.href = 'website';">Resources</button>
 </div>
     <div class="body1">
-            <div class="container-ci">
+        <div class="container-ci">
             <form>
                 <h4>Coffee Information</h4>
                     <h3>Coffee Name:</h3>
@@ -37,26 +40,69 @@
                             <option value="ni">Nicaragua</option>
                             <option value="ot">Other</option>
                         </select>
-                        <p>Other: <input type="text"></p><br>
+                        <p style="font-size: 20px;">Other: <input type="text"></p><br>
                     <h3>Processing Method:</h3>
                         <p>
                             <input type="radio" value="washed"> Washed<br>
                             <input type="radio" value="Honey"> Honey<br>
                             <input type="radio" value="Natural"> Natural<br>
                             <input type="radio" value="Other"> Other <input type="text"><br>
-                        </p>
+                        </p><br>
                         <input type="submit">
             </form>
-            </div>
-        <div class="container-ci">
-            <h4>Cup Characteristics:</h4>
         </div>
-        <div class="container-ci">
-            <h4>Overall Ratings:</h4>
+        <div class="container-cc">
+            <h4>Cup Characteristics</h4>
+                <h3>Aroma</h3>
+                    <p>Note: <input type="text"></p><br>
+                <h3>Body</h3>
+                    <p>Note: <input type="text"></p><br>
+                <h3>Acidity</h3>
+                    <p>Note: <input type="text"></p><br>
+                <h3>Sweetness</h3>
+                    <p>Note: <input type="text"></p><br>
+                <div>
+                    <input type="submit">
+                </div>
         </div>
-        <div class="container-ci">
-            <h4>Notes:</h4>
-        </div>
+<div class="container-or">
+    <h4>Overall Ratings:</h4>
+    <div class="wrap">
+    <form action="">
+        <ul class='likert'>
+        <li>
+            <input type="radio" name="likert" value="1">
+            <label>1</label>
+        </li>
+        <li>
+            <input type="radio" name="likert" value="2">
+            <label>2</label>
+        </li>
+            <li>
+              <input type="radio" name="likert" value="3">
+              <label>3</label>
+            </li>
+            <li>
+              <input type="radio" name="likert" value="4">
+              <label>4</label>
+            </li>
+            <li>
+              <input type="radio" name="likert" value="5">
+              <label>5</label>
+            </li>
+        </ul>
+        <p>Note: <input type="text"></p>
+    </form>
     </div>
+    <br><input type="submit">
+</div>
+<div class="container-no">
+    <h4>Notes:</h4>
+    <form action="">
+        <textarea name="message"></textarea>
+        <br>
+        <input type="submit">
+    </form>
+</div>
 </body>
 </html>
